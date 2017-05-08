@@ -245,6 +245,9 @@
 				});
 				
 				$.ready(function() {
+					
+					plus.navigator.setStatusBarBackground("#FF0000");
+					plus.navigator.setStatusBarStyle('UIStatusBarStyleBlackOpaque')
 					//循环初始化所有下拉刷新，上拉加载。
 					$.each(document.querySelectorAll('.mui-slider-group .mui-scroll'), function(index, pullRefreshEl) {
 						$(pullRefreshEl).pullToRefresh({
