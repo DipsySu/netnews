@@ -34,7 +34,7 @@
 					show: true,
 					contentinit: '上拉显示更多',
 					contentdown: '上拉显示更多',
-					contentrefresh: '正在加载...',
+					contentrefresh: '加载中...',
 					contentnomore: '没有更多数据了',
 					callback: false
 				},
